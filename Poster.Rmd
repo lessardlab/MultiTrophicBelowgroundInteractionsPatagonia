@@ -1,0 +1,117 @@
+---
+output: 
+  posterdown::posterdown_betterland:
+    self_contained: false
+    pandoc_args: --mathjax
+    highlight: espresso
+    number_sections: false
+main_findings:
+        - 'Universe of belowground interactions'
+        - 'Alpine plant communities can rewire microbial interactions but preserve belowground network structures'
+        - 'Reduced interaction richness and increasing generalism'
+        - '![](mainFig.png){.main_pic}'
+main_fontfamily: "Courier"
+main_textsize: 100px
+main_picwidth: "90%"
+title: "New mechanistic insights into the reorganization of multi-trophic communities in novel ecosystems"
+title_textsize: 70pt
+logoright_name: "![](QCBS_logo_LR.png)"
+author:
+  - name: 'Gabriel Muñoz' 
+    affil: "1"
+    main: true
+    twitter: 'NasuaResearch'
+    email: 'gabriel.munoz@concordia.ca'
+  - name: 'Isaac Eckert' 
+    affil: "1"
+  - name: 'Martin Nuñez' 
+    affil: "3"
+  - name: 'Tonia de Bellis' 
+    affil: "1,2"
+  - name: 'Jean-Philippe Lessard' 
+    affil: "1"
+affiliation:
+  - num: "1"
+    address: "Community Ecology and Biogeography Lab, Concordia University, Montreal, Canada"
+  - num: "2"
+    address: "Dawson College, Montreal, Canada"
+  - num: "3"
+    address: "Grupo de Ecología de Invasiones, CONICET, Bariloche, Argentina"
+bibliography: "bib2.bib"
+---
+
+
+# Introduction 
+
+- Biotic interactions between species are key drivers of many ecological process and can govern the organization of communities. 
+
+- The functioning of ecosystem level processes in alpine environments can be especially susceptible to biodiversity shifts ( *e.g. range expansions creating novel species assemblages*). 
+
+- The overall effects of interaction networks in the assembly of communities is not fully yet understood across trophic scales.
+
+- Such impacts may greatly determine the ability of ecosystems to provide specific services to a large portion of the population around the world. 
+
+
+# Study area
+
+
+Non-native (*Pinus contorta*) pine invasions in alpine Patagonia. 
+
+```{r, echo = F, fig.cap="Location of study area",fig.align="center", out.width = "80%"}
+knitr::include_graphics("Screen Shot 2019-12-18 at 11.59.35.png")
+```
+
+
+```{r, echo = F, fig.cap="Study site",fig.align="center", out.width = "70%"}
+knitr::include_graphics("Screen Shot 2018-12-14 at 14.07.28.png")
+
+```
+
+# Methods
+
+
+- 45 plots of $2^2mts$ at 3 temporal treatments 
+
+  - Belowground interation diversity
+  - Plant diversity
+  - abiotic and physical variables 
+  - Arthropod diversity*
+
+- Interaction meta-networks for each treatment (T)
+
+- Network structural metrics (partial-metanetworks)
+
+- Interaction richness relationships with abiotic soil conditions  
+
+# Key Questions 
+
+
+- Is there a congruent change on plant-microbial interactions across distinct trophic groups? 
+
+- How distinct is the structure of interactions among trophic communities?  
+
+- How to link up our findings to other environments?
+
+
+
+```{r, echo = F, fig.cap="Network structure across trophic groups",fig.align="center", out.width = "80%"}
+knitr::include_graphics("NetMetricChange.png")
+```
+
+
+
+# Future work
+
+
+- Partitioning variance
+
+- Finer taxonomic resolution 
+
+- Functional aspects of interactions
+
+
+```{r, echo = F,fig.align="center", out.width = "80%"}
+knitr::include_graphics("ref.png")
+```
+
+
